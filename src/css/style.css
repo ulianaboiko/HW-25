@@ -1,0 +1,33 @@
+.container {
+  position: relative;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.box:nth-child(1) {
+  background-color: rgb(201, 92, 128);
+  position: absolute;
+  left: 500px;
+  top: 100px;
+  z-index: 1;
+}
+
+.box:nth-child(2) {
+  background-color: rgb(110, 68, 209);
+  position: absolute;
+  left: 610px;
+  top: 210px;
+  z-index: 2;
+}
+
+.box:nth-child(3) {
+  background-color: rgb(56, 187, 143);
+  position: absolute;
+  left: 720px;
+  top: 320px;
+  z-index: 1;
+}
